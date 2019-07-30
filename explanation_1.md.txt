@@ -1,0 +1,7 @@
+I'm using the Hash Map data structure(s) to implement the cache.
+In case of a cache hit, I get() operation and return the value.
+In case of a cache miss, I using get() and return -1.
+While putting an element in the cache, I have been put() / set() operation to insert the element. If the cache is full, I will remove the least recently used entry first and then insert the element.
+
+Time complexity : O(1)
+Space complexity: O(n) because space complexity consists of a node list and a cache dictionary, so the big O is O(2n),the n is the size of the cache.

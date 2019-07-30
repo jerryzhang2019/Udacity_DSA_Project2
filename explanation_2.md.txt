@@ -1,0 +1,5 @@
+# Problem 2 - File Recursion
+Because if I want to traverse each directory to search for files, I am plan to use a recursive algorithm.
+
+Time complexity :O(n) Because if I want to find each file, this function will be called n times, so it is O(n)
+Space complexity :(m*n) Because it will be of the order: O(mn) where 'm' represents the maximum recursion depth(or the max. depth of the tree) and 'n' represents the total number of nodes(folders) in the tree. For each node(folder), I have to store its siblings(sub folders) so that when I have visited all the children(files), and I come back to a parent node, I can know which sibling(sub folder) to explore next. For m nodes down the path, I will have to store n nodes extra for each of the m nodes.

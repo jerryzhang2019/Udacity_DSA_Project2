@@ -1,0 +1,6 @@
+#Problem 6 - Union and Intersection
+The "union" function has while loops, each of which corresponds to a linked list. So, its performance is order N.
+ The intersection function has a loop within a loop that determines whether the values in the two lists are the same. So O (N * * 2)
+Time complexity :O(n**2)
+Space complexity :O(n) 
+The 'set' function creates a unique list of caches. With the linked list and the cache set, there's a big O(n) space.

@@ -1,0 +1,4 @@
+#Problem 4 - Users in Group
+I'm using a recursive algorithm. Returns True if the user is in the group. Otherwise, for each group in the group, the function is called again and searched by the user.
+Time complexity :O(n) Regardless of the size of the users and groups, I must be searched recursively to find our users.
+Space complexity :O(n) Because using two arrays to store users and groups, the O grows to a simple multiple of these

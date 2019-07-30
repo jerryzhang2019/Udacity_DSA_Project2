@@ -1,0 +1,5 @@
+#Problem 5 - BlockChain
+I think blockchain is a node and a linked list. Each node in the list points to the next node and stores its own hash and the previous one.
+
+Time complexity :O(1) Because we're just going through a linked list and executing some hash functions
+Space complexity :O(n) Because big O for space, 1 for hash sha, 1 for linked list O of 2n.
